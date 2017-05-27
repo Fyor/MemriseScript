@@ -10,6 +10,6 @@ for (var i = 0; i < $(".col_a").size(); i++) {
 // This is for collum b
 var someArray = $('.things .thing .col_btext .text').toArray();
 var memriseArray = [];
-for (var i = 0; i < $(".col_b).size(); i++) {
+for (var i = 0; i < $(".col_b").size(); i++) {
 	memriseArray.push(someArray[i].innerText);
 }
