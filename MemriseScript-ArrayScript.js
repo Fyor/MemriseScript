@@ -8,7 +8,7 @@ for (var i = 0; i < $(".col_a").size(); i++) {
 	memriseArray.push(someArray[i].innerText);
 }
 // This is for collum b
-var someArray = $('.things .thing .col_btext .text').toArray();
+var someArray = $('.things .thing .col_b.text .text').toArray();
 var memriseArray = [];
 for (var i = 0; i < $(".col_b").size(); i++) {
 	memriseArray.push(someArray[i].innerText);
