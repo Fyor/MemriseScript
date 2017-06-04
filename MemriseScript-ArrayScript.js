@@ -3,13 +3,13 @@
 
 // The is for collum a
 var someArray = $('.things .thing .col_a.text .text').toArray();
-var memriseArray = [];
+var memriseArrayA = [];
 for (var i = 0; i < $(".col_a").size(); i++) {
-	memriseArray.push(someArray[i].innerText);
+	memriseArrayA.push(someArray[i].innerText);
 }
 // This is for collum b
 var someArray = $('.things .thing .col_b.text .text').toArray();
-var memriseArray = [];
+var memriseArrayB = [];
 for (var i = 0; i < $(".col_b").size(); i++) {
-	memriseArray.push(someArray[i].innerText);
+	memriseArrayB.push(someArray[i].innerText);
 }
